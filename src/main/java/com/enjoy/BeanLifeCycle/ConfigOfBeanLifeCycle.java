@@ -20,6 +20,7 @@ public class ConfigOfBeanLifeCycle {
 
     @Bean(initMethod = "init", destroyMethod = "destroy")
     public Student student() {
+        System.out.println("1我先实例化");
         return new Student();
     }
 }

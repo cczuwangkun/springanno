@@ -13,14 +13,14 @@ import org.springframework.stereotype.Component;
 public class MyBeanPostProcessor implements BeanPostProcessor {
     //对初始化之前的Bean进行处理
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        System.out.println("对初始化前的 bean 进行处理"+bean);
+        System.out.println("4对初始化前的 bean 进行处理"+bean);
         return bean;
     }
 
     //对初始化之后的Bean进行处理
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         Student stu = null;
-        System.out.println("对初始化之后的Bean进行处理,将Bean的成员变量的值修改了");
+        System.out.println("6对初始化之后的Bean进行处理,将Bean的成员变量的值修改了");
         if("name".equals(beanName) || bean instanceof Student) {
             stu = (Student) bean;
             stu.setName("Jack");

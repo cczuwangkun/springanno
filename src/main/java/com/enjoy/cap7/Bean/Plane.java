@@ -31,7 +31,6 @@ public class Plane implements ApplicationContextAware {
         System.out.println("Plane--------PreDestroy  ");
     }
 
-    @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
     }

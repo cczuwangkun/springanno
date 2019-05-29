@@ -2,45 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f343655-7b67-4729-a621-8d991b0a62d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LifeCycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/LogAspects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/Config/Cap10MainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/newBean/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cap10Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-anno.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/wakenBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/wakenBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-anno.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap5/config/Cap5MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap5/config/Cap5MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap5/config/LinuxCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap5/config/LinuxCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap5/config/WinCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap5/config/WinCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Fish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Monkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Monkey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Tigger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/bean/Tigger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/Cap6MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/Cap6MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/wakenFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/wakenFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/wakenImportBeanDefinitionRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/wakenImportBeanDefinitionRegistrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/wakenImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap6/config/wakenImportSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Bike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Jeep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Jeep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cap7Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cap7Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/BeanLifeCycle/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/BeanLifeCycle/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/Train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/wakenBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/Bean/wakenBeanPostProcessor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap8/bean/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap8/bean/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap8/config/Cap8MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap8/config/Cap8MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/Controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/Controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/Dao/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/Dao/TestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/Service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/Service/TestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/config/Cap9MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enjoy/cap9/config/Cap9MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cap5Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cap5Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cap6Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cap6Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Cap7Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cap7Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cap8Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cap8Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cap9Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cap9Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,33 +36,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="220">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/LogAspects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/Config/Cap10MainConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="264">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LifeCycleTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Cap10Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap5/config/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap5/config/cap5MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap5/config/WinCondition.java" />
@@ -125,12 +120,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap6/config/wakenFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cap6Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap6/config/Cap6MainConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Cap7Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Bike.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Jeep.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Train.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/wakenBeanPostProcessorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Plane.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cap8Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap8/config/Cap8MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test.properties" />
@@ -140,13 +133,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap9/config/Cap9MainConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cap9Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap9/Dao/TestDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/wakenBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/LifeCycleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java" />
         <option value="$PROJECT_DIR$/src/test/java/LifeCycleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Plane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/Bean/Light.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Light.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Cap7Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap7/newBean/Light.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/Config/Cap10MainConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Cap10Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/LogAspects.java" />
       </list>
     </option>
   </component>
@@ -170,11 +173,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,7 +239,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="enjoy" type="462c0819:PsiDirectoryNode" />
-              <item name="BeanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="cap10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-anno" type="b2602c69:ProjectViewProjectNode" />
@@ -245,29 +249,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="enjoy" type="462c0819:PsiDirectoryNode" />
-              <item name="cap7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-anno" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springanno" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
-              <item name="cap7" type="462c0819:PsiDirectoryNode" />
-              <item name="Bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-anno" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springanno" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
-              <item name="cap7" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="cap10" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-anno" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +269,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,14 +278,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.enjoy.cap7.Bean" />
       <recent name="com.enjoy.BeanLifeCycle" />
       <recent name="" />
       <recent name="com.enjoy.cap8.config" />
-      <recent name="com.enjoy.cap7.Bean" />
       <recent name="com.enjoy.cap6.config" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -327,7 +312,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LifeCycleTest">
+  <component name="RunManager" selected="Application.Cap10Test">
+    <configuration name="Cap10Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cap10Test" />
+      <module name="spring-anno" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LifeCycleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LifeCycleTest" />
       <module name="spring-anno" />
@@ -335,12 +327,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cap6Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Cap7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-anno" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cap6Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Cap7Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,16 +340,6 @@
       <module name="spring-anno" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Cap7Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cap8Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-anno" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cap8Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -377,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LifeCycleTest" />
+        <item itemvalue="Application.Cap10Test" />
         <item itemvalue="JUnit.Cap7Test.test" />
+        <item itemvalue="JUnit.Cap7Test" />
+        <item itemvalue="Application.LifeCycleTest" />
         <item itemvalue="JUnit.Cap9Test.test" />
-        <item itemvalue="JUnit.Cap8Test.test" />
-        <item itemvalue="JUnit.Cap6Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -404,29 +385,12 @@
       <workItem from="1558615281650" duration="2372000" />
       <workItem from="1558960234773" duration="3359000" />
       <workItem from="1558965014355" duration="78000" />
-      <workItem from="1558965259549" duration="614000" />
+      <workItem from="1558965259549" duration="6986000" />
+      <workItem from="1559030679031" duration="9473000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cap8Test_test - 2019.05.04 at 14h 01m 38s.xml">
-      <configuration name="Cap8Test.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cap8Test_test - 2019.05.04 at 14h 01m 51s.xml">
-      <configuration name="Cap8Test.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cap8Test_test - 2019.05.04 at 14h 03m 04s.xml">
-      <configuration name="Cap8Test.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cap8Test_test - 2019.05.04 at 14h 03m 35s.xml">
-      <configuration name="Cap8Test.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cap8Test_test - 2019.05.04 at 14h 04m 10s.xml">
-      <configuration name="Cap8Test.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cap8Test_test - 2019.05.04 at 14h 04m 44s.xml">
-      <configuration name="Cap8Test.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Cap8Test_test - 2019.05.04 at 14h 05m 12s.xml">
       <configuration name="Cap8Test.test" configurationId="JUnit" />
     </history-entry>
@@ -439,9 +403,27 @@
     <history-entry file="Cap7Test_test - 2019.05.27 at 20h 34m 16s.xml">
       <configuration name="Cap7Test.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Cap7Test_test - 2019.05.28 at 17h 30m 20s.xml">
+      <configuration name="Cap7Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cap7Test_test - 2019.05.28 at 17h 45m 46s.xml">
+      <configuration name="Cap7Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cap7Test_test - 2019.05.28 at 17h 47m 48s.xml">
+      <configuration name="Cap7Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cap7Test_test - 2019.05.28 at 17h 48m 20s.xml">
+      <configuration name="Cap7Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cap7Test - 2019.05.28 at 17h 48m 36s.xml">
+      <configuration name="Cap7Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cap7Test_test - 2019.05.28 at 17h 49m 43s.xml">
+      <configuration name="Cap7Test.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42917000" />
+    <option name="totallyTimeSpent" value="58762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,9 +436,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27482554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -467,8 +448,8 @@
       <window_info id="Alibaba Cloud Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3880597" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49966192" weight="0.41500765" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25832376" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49966192" weight="0.41446614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
@@ -484,7 +465,7 @@
       <window_info anchor="bottom" id="Alibaba Cloud View" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.280595" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.28019324" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32957596" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -554,70 +535,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap6/bean/Monkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cap6Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap6/config/wakenFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap6/config/Cap6MainConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Map.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/DisposableBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/wakenBeanPostProcessorImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -709,49 +627,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap8/bean/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/LifeCycleTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cap9Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Cap8Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="16" column="114" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cap7Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap8/config/Cap8MainConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,13 +644,6 @@
             <element signature="e#422#423#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -790,6 +663,203 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#4916#4917#0" expanded="true" />
+            <element signature="e#4974#4975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="524" selection-start-line="524" selection-end-line="524" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="1763" column="30" selection-start-line="1763" selection-start-column="30" selection-end-line="1763" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="1225" column="13" lean-forward="true" selection-start-line="1225" selection-start-column="13" selection-end-line="1225" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="759" column="22" lean-forward="true" selection-start-line="759" selection-start-column="22" selection-end-line="759" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="868" column="29" selection-start-line="868" selection-start-column="29" selection-end-line="868" selection-end-column="29" />
+          <folding>
+            <element signature="e#9660#9661#0" expanded="true" />
+            <element signature="e#9726#9727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="87" column="12" lean-forward="true" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LifeCycleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/scheduling/annotation/ScheduledAnnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#5018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="87" column="84" selection-start-line="87" selection-start-column="68" selection-end-line="87" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap8/config/Cap8MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap8/bean/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/Bean/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap7/Bean/wakenBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -800,20 +870,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/MyBeanPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap7/newBean/Light.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="242">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap7/config/Cap7ConfigOfBeanLifeCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="307">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#591#592#0" expanded="true" />
@@ -822,31 +893,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/Student.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="325">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cap7Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/BeanLifeCycle/ConfigOfBeanLifeCycle.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/Before.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="198">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LifeCycleTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/annotation/Before.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="144">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cap9Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/Config/Cap10MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cap10Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enjoy/cap10/AOP/LogAspects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,9 +977,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-anno</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-beans:5.0.6.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
