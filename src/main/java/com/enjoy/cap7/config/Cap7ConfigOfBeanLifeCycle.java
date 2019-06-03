@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Scope;
  * 功能描述: bean的生命周期 创建-> 初始化 —>  销毁
  */
 @Configuration
-@ComponentScan("com.enjoy.cap7.Bean")
+@ComponentScan("com.enjoy.cap7.newBean")
 public class Cap7ConfigOfBeanLifeCycle {
 
     @Bean(initMethod = "init",destroyMethod = "destroy")

@@ -14,7 +14,7 @@ public class Cap7Test {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Cap7ConfigOfBeanLifeCycle.class);
 
         System.out.println("IOC 容器创建完成。。。");
-
+        System.out.println(context);
         //销毁 调用map的clear方法。
         context.close();
 
