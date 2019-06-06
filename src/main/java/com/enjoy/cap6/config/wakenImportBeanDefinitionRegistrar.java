@@ -17,7 +17,6 @@ import org.springframework.core.type.AnnotationMetadata;
  * BeanDefinitionRegistry：把所有需要添加到容器的bean加入。
  */
 public class wakenImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
-    @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
         boolean b1 = registry.containsBeanDefinition("com.enjoy.cap6.bean.Fish");
         boolean b2 = registry.containsBeanDefinition("com.enjoy.cap6.bean.Tigger");
