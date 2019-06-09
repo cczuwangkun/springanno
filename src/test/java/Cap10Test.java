@@ -15,7 +15,7 @@ public class Cap10Test {
 
         Calculator calculator = context.getBean(Calculator.class);
 
-        int div = calculator.div(4, 3);
+        int div = calculator.div(4, 1);
 
         System.out.println(div);
 
