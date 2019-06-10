@@ -22,7 +22,7 @@ public class LogAspects {
     @Before("pointCut()")
     public void logStart(JoinPoint joinPoint) {
         System.out.println(joinPoint.getSignature().getName()+
-                "除法运行。。。参数列表是：{" + Arrays.toString(joinPoint.getArgs()) + "}");
+                 "除法运行。。。参数列表是：{" + Arrays.toString(joinPoint.getArgs()) + "}");
     }
 
     @After("pointCut()")
