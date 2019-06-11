@@ -1,7 +1,10 @@
 package com.enjoy.cap10.AOP;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+
+import java.util.Arrays;
 
 /**
  * @Author:waken
@@ -17,8 +20,9 @@ public class LogAspects {
     }
 
     @Before("pointCut()")
-    public void logStart() {
-        System.out.println("除法运行。。。参数列表是：{}");
+    public void logStart(JoinPoint joinPoint) {
+        System.out.println(joinPoint.getSignature().getName()+
+                 "除法运行。。。参数列表是：{" + Arrays.toString(joinPoint.getArgs()) + "}");
     }
 
     @After("pointCut()")
@@ -26,14 +30,14 @@ public class LogAspects {
         System.out.println("除法运行结束");
     }
 
-    @AfterReturning("pointCut()")
-    public void logReturn() {
-        System.out.println("除法正常返回。。。返回结果是：{}");
+    @AfterReturning(value = "pointCut()", returning = "result")
+    public void logReturn(Object result) {
+        System.out.println("除法正常返回。。。返回结果是：{" + result + "}");
     }
 
-    @AfterThrowing("pointCut()")
-    public void logException() {
-        System.out.println("除法发生异常。。。返回结果是：{}");
+    @AfterThrowing(value = "pointCut()", throwing = "exception")
+    public void logException(Exception exception) {
+        System.out.println("除法发生异常。。。返回结果是：{" + exception + "}");
     }
 
     @Around("pointCut()")
