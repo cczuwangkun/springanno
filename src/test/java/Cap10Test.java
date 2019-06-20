@@ -19,5 +19,7 @@ public class Cap10Test {
 
         System.out.println(div);
 
+        context.close();
+
     }
 }
